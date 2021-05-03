@@ -32,7 +32,7 @@ int tt = 1;
 
 void board(pair <int, int> &pos, pair <int, int> &food, int score){
 
-	cout << "Score : " << score << "    Time : " << tt << "\n";
+	cout << "Score : " << score << "    Moves : " << tt << "\n";
 	cout << "______________________\n";
 
 	for(int i = 0; i < 10; ++i){
